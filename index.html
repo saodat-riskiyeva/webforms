@@ -9,7 +9,7 @@
   </head>
   <body>
     <form action="" method="">
-      <label for="username">Your name:</label>
+      <!-- <label for="username">Your name:</label>
       <input type="text" name="user-name" id="username" />
       <label for="useremail">Your email address:</label>
       <input type="email" name="user-email" id="useremail" />
@@ -19,7 +19,7 @@
       <input type="password" name="user-password" id="userpassword" />
       <label for="birthdate">Your birthdate:</label>
       <input type="date" name="user-birthdate" id="birthdate" />
-      <hr />
+      <hr /> -->
       <h2>How should we verify your account?</h2>
       <div class="form-control-inline">
         <input
@@ -38,6 +38,30 @@
         <input type="radio" name="verify" id="verify-email" value="email" />
         <label for="verify-email">Via an email</label>
       </div>
+      <div class="form-control-inline">
+        <input type="checkbox" id="agree-terms" name="terms" />
+        <label for="agree-terms">I agree to the terms and conditions</label>
+      </div>
+
+      <div class="form-control-inline">
+        <input
+          type="checkbox"
+          id="contact-email"
+          name="contact"
+          value="email"
+        />
+        <label for="contact-email">Contact me via email</label>
+      </div>
+      <div class="form-control-inline">
+        <input
+          type="checkbox"
+          id="contact-phone"
+          name="contact"
+          value="phone"
+        />
+        <label for="contact-phone">Contact me via phone</label>
+      </div>
+
       <button>Submit</button>
     </form>
   </body>
