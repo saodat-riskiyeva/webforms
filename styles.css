@@ -1,5 +1,6 @@
 body {
   background-color: rgb(31, 30, 30);
+  font-family: Arial, sans-serif;
 }
 
 form {
@@ -19,4 +20,5 @@ input {
 
 button {
   display: block;
+  font: inherit;
 }
