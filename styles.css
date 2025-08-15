@@ -51,6 +51,7 @@ button:hover {
 
 .form-control-inline {
   display: flex;
+  width: auto;
 }
 
 .form-control-inline input {
